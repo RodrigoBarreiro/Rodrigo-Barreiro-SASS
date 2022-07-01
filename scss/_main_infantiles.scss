@@ -1,0 +1,43 @@
+@media (min-width: $desktop ){
+    .infantiles_main{
+        display: flex;
+        margin-top: 132px;
+    }
+}
+@media (max-width: $mobile ){
+    .infantiles_main {
+        display: block;
+        margin-top: 132px;
+        .imagen_infantiles1{
+            text-align: center;
+            img {
+                width:100% ;
+                max-width: 800px;
+                text-align: center;
+            }
+        }
+        .caratulas_libros_infantiles h2{
+            line-height: 50px;
+        }
+    }
+    .fondo{
+        display: block !important;  
+    }
+}
+.caratulas_libros_infantiles {
+    order: 2;
+    font-family: $fuente;
+    font-size: $tituloGeneros;
+    text-align: center;
+    margin: 0 auto;
+    animation-name: opacidad_de_texto;
+    animation-duration:2s;
+    h2{
+        padding-bottom: 71px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+}
+.imagen_infantiles1{
+    order: 1;
+}

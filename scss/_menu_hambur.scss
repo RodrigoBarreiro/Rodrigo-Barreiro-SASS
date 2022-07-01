@@ -1,0 +1,67 @@
+@media (min-width: $desktop ){  
+    .portada img {
+        width: 100%;
+        padding: 31px;
+    }
+    .checkbox{
+        display: none;
+    }
+    .menu_resp{
+        display: none;
+    }
+}
+@media (max-width: $mobile ){
+    .navbar {
+        padding: 5px;
+        ul {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        li{
+            padding: 10px 0px;
+            display: block;
+        }
+        .titulo_principal img{
+            width:250px;
+        }
+        .navbar_derecha {
+            float: none !important;
+            display: none;
+        }
+        .menu_resp ,.titulo_principal{    
+            display: inline-block;
+            vertical-align: baseline;
+        }
+        .navbar_izquierda{
+            display: none !important;
+        }
+        .checkbox{
+            top: 10px;
+            width: 35px;
+            height: 30px;
+            position: absolute;
+            opacity: 0;
+            &:checked ~.navbar_izquierda{   
+                display: block !important;
+            }
+            &:checked ~.navbar_derecha{
+                display: block;
+            }
+        }
+        ul li ul {
+            color: $colorNegro;
+            position:static;
+            background-color: $colorBlanco;
+            display: none;
+            padding: 10px;
+        }
+    }
+    .libros_container{
+        display: block !important;
+        margin: 60px auto !important;
+    }
+    .portada img{
+        padding: 5px;
+        width: 100%;
+    }
+}

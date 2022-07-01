@@ -1,0 +1,62 @@
+@media (min-width: $desktop ){
+    .contendor_hechizo {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin: 135px auto 0 auto;
+        .contenedor_hechizo_info{
+            width: 80%;
+            height: 623px;
+        }
+    }
+}
+@media (max-width: $mobile ){
+    .contendor_hechizo {
+        display: block;
+        margin-top: 132px;
+        .imagen_hechizo {
+            text-align: center;
+            img {
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+        .contenedor_hechizo_info{
+            width: 100%;
+        }
+    }
+    .interaccion_hechizo{
+        justify-content: center;
+        margin: 0 auto !important
+    }
+}
+
+.main_hechizo{
+    max-width: 1300px;
+    margin: 0 auto;
+    .imagen_hechizo{
+        flex-grow: 3;
+    }
+    .contenedor_hechizo_info{
+        flex-grow: 1;
+        color: $colorBlanco;
+        font-family: $fuente;
+        font-size: $parrafoLibros;
+        background-color: $fondoHechizo ;
+        padding: 10px;
+        h2{
+            font-size: $tituloLibros;
+        }
+    }
+    .interaccion_hechizo{
+        display: flex;
+        margin-left: 103px;
+        margin-top: 20px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+}
+
+
+
+

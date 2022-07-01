@@ -1,0 +1,64 @@
+@media (min-width: $desktop ){
+    .contenedor_niebla {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin: 135px auto 0 auto;
+        .contenedor_niebla_info{
+            width: 80%;
+            height: 610px;
+        }
+    }
+}
+@media (max-width: $mobile ){
+    .contenedor_niebla {
+        display: block;
+        margin-top: 132px;
+        .imagen_niebla {
+            text-align: center;
+            img {
+                width: 100%;
+                max-width: 500px;
+            }
+        } 
+        .contenedor_niebla_info{
+            width: 100%;
+            h2{
+                text-align: center;
+            } 
+        }
+    }
+    .interaccion_niebla{
+        justify-content: center;
+        margin: 0 auto !important
+    }
+}
+.main_niebla{
+    max-width: 1300px;
+    margin: 0 auto;
+    .imagen_niebla{
+        flex-grow: 3;
+    }
+    .contenedor_niebla_info{
+        flex-grow: 1;
+        color: $colorBlanco;
+        font-family: $fuente;
+        font-size: $parrafoLibros;
+        background-color: $fondoNiebla;
+        padding: 10px;
+        text-align: left;
+        h2{
+            font-size: $tituloLibros;
+        }
+    }
+    .interaccion_niebla{
+        display: flex;
+        margin-left: 103px;
+        margin-top: 20px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+    
+}
+
+

@@ -1,0 +1,20 @@
+footer{                                                                      
+    background-color: $colorNegro;
+    padding: 10px;
+    margin-top: auto; 
+    .address_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:60px;
+        margin: 0 auto;
+        .informacion_contacto {
+            color: $colorBlanco;
+            font-size: medium;
+            font-family: $fuente;
+            text-align: left;
+        }
+    }
+}
+
+

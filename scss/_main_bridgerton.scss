@@ -1,0 +1,62 @@
+@media (min-width: $desktop ){
+    .contenedor_bridgerton {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin: 135px auto 0 auto;
+        .contenedor_bridgerton_info{
+            width: 80%;
+            height: 588px;
+        }
+    }
+}
+@media (max-width: $mobile ){
+    .contenedor_bridgerton {
+        display: block;
+        margin-top: 132px;
+        .contenedor_bridgerton_info{
+            width: 100%;
+        }
+        .imagen_bridgerton {
+            text-align: center;
+            img {
+                width: 100%;
+                max-width: 525px;
+            }
+        }
+    }
+    .interaccion_bridgerton{
+        justify-content: center;
+        margin: 0 auto !important
+    }
+}
+
+.main_bridgerton{
+    max-width: 1300px;
+    margin: 0 auto;
+    .imagen_bridgerton{
+        flex-grow: 3;
+    }
+    .contenedor_bridgerton_info{
+        flex-grow: 1;
+        color: $colorBlanco;
+        font-family: $fuente;
+        font-size: $parrafoLibros;
+        background-color: $fondoBridgerton;
+        padding: 10px;
+        text-align: left;
+        h2{
+            font-size: $tituloLibros;
+        }
+    }
+    .interaccion_bridgerton{
+        display: flex;
+        margin-left: 103px;
+        margin-top: 20px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+}
+
+
+

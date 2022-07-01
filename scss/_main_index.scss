@@ -1,0 +1,38 @@
+.libros_container {                                                         
+    display: flex;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 100px auto;
+    animation-name: opacidad_de_texto;
+    animation-duration:2s;
+    .estrenos {
+        font-family: $fuente;
+        font-size: $titulosIndex;
+        font-weight: bold;
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+    .recomendados {
+        font-family:$fuente;  
+        font-size: $titulosIndex;
+        font-weight: bold;
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+    .lista_libros {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        li{
+            flex-basis: 30%;
+            flex-grow: 1;
+            text-align: center;
+        }
+    }
+    h4 {
+        text-align: center;
+        margin-bottom: 30px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+}

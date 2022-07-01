@@ -1,0 +1,41 @@
+@media (min-width: $desktop ){
+    .adultos_main{
+        display: flex;
+        margin-top: 132px;
+    }
+}
+@media (max-width: $mobile ){
+    .adultos_main {
+        display: block;
+        margin-top: 132px;
+        .adulto_imagen {
+            text-align: center;
+            img {
+                width:100% ;
+                max-width: 800px;
+                text-align: center;
+            }
+        } 
+        .libros_adultos h2{
+            line-height: 50px;
+        }
+    }
+    .fondo{
+        display: block !important;  
+    }
+}
+.libros_adultos {
+    order: 2;
+    margin: 0 auto;
+    font-family: $fuente;
+    font-size: $tituloGeneros;
+    font-weight: bold;
+    text-align: center;
+    animation-name: opacidad_de_texto;
+    animation-duration:2s;
+    h2 {
+        padding-bottom: 71px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+}

@@ -1,0 +1,64 @@
+@media (min-width: $desktop ){
+    .contendor_michelle {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin: 135px auto 0 auto;
+        .info_michelle{
+            width: 80%;
+        }
+    }
+}
+@media (max-width: $mobile ){
+    .contendor_michelle {
+        display: block;
+        margin-top: 132px;
+        .imagen_michelle{
+            text-align: center;
+            img {
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+        .info_michelle{
+            width: 100%;
+        }
+    }
+    .interaccion_michelle{
+        justify-content: center;
+        margin: 0 auto !important
+    }
+}
+
+.main_michelle{
+    max-width: 1300px;
+    margin: 0 auto;
+    .imagen_michelle{
+        flex-grow: 3;
+    }
+    .info_michelle{
+        flex-grow: 1;
+        font-family: $fuente;
+        font-size: 17px;
+        background-color: $fondoMichelle ;
+        padding: 10px;
+        h2{
+            font-size: $tituloLibros;
+        }
+    }
+    .interaccion_michelle{
+        display: flex;
+        margin-left: 103px;
+        margin-top: 20px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+} 
+
+
+
+
+
+
+
+

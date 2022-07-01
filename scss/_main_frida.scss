@@ -1,0 +1,64 @@
+@media (min-width: $desktop ){
+    .contenedor_frida {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin: 135px auto 0 auto;
+        .contenedor_info_frida{
+            width: 80%;
+        }
+    }
+}
+@media (max-width: $mobile ){
+    .contenedor_frida {
+        display: block;
+        margin-top: 132px;
+        .imagen_frida {
+            text-align: center;
+            img {
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+        .contenedor_info_frida{
+            width: 100%;
+        }
+    }
+    .interaccion_frida{
+        justify-content: center;
+        margin: 0 auto !important
+    }
+}
+
+.main_frida{
+    max-width: 1300px;
+    margin: 0 auto;
+    .imagen_frida{
+        flex-grow: 3;
+    }
+    .contenedor_info_frida{
+        flex-grow: 1;
+        color: $colorBlanco;
+        font-family: $fuente;
+        font-size: $parrafoLibros;
+        background-color:$colorNegro ;
+        padding: 10px;
+        h2{
+            font-size: $tituloLibros;
+        }
+    }
+    .interaccion_frida{
+        display: flex;
+        margin-left: 103px;
+        margin-top: 20px;
+        animation-name: opacidad_de_texto;
+        animation-duration:2s;
+    }
+} 
+
+
+
+
+
+
+
