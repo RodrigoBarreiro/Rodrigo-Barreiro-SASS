@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-image: url(../image/fondo1.png); }
+  background-image: url(../image/fondo1.jpg); }
 
 .titulo_principal {
   display: inline-block;
