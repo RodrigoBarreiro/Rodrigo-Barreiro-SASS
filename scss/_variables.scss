@@ -29,5 +29,13 @@ $lineadoNav: 1px solid black;
 $fuente: Arial, Helvetica, sans-serif;
 
 
-
+$btn:(
+    background: $colorBoton,   
+    border: 5px,
+    color: $colorBlanco,
+    font: bold,
+    padding: $bordeBoton,
+    text_decoration:none,
+    text_shadow: none,
+)
 

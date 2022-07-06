@@ -47,13 +47,16 @@ nav{
         .menu_buton_item{          
             padding-top: 10px;
             .menu_buton {                                              
-                background-color: $colorBoton;   
-                border-radius: 5px;
-                color: $colorBlanco;
-                font-weight: bold;
-                padding: $bordeBoton;
-                text-decoration:none;
-                text-shadow: none;
+                background-color: map-get($btn , background);    
+                border-radius: map-get($btn , border);
+                color: map-get($btn, color);
+                font-weight: map-get($btn , font );
+                padding: map-get($btn, padding);
+                text-decoration: map-get($btn , text_decoration  );
+                text-shadow: map-get($btn , text_shadow );
+            }
+            .menu_bt {
+                @extend .menu_buton;
             }
         }
     }

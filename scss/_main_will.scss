@@ -1,3 +1,11 @@
+@mixin Propiedadesinteracciones ($display,$margen_left,$margen_top,$animation,$animation_duration) {
+    display: $display;
+    margin-left: $margen_left;
+    margin-top: $margen_top;
+    animation-name: $animation;
+    animation-duration:$animation_duration;
+}
+
 @media (min-width: $desktop ){
     .contendor_info {
         display: flex;
@@ -52,22 +60,6 @@
         }
     }
     .interaccion_will{
-        display: flex;
-        margin-left: 103px;
-        margin-top: 20px;
-        animation-name: opacidad_de_texto;
-        animation-duration:2s;
+        @include Propiedadesinteracciones(flex,103px,20px,opacidad_de_texto,2s);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
