@@ -1,0 +1,7 @@
+@mixin Propiedadesinteracciones ($display,$margen_left,$margen_top,$animation,$animation_duration) {
+    display: $display;
+    margin-left: $margen_left;
+    margin-top: $margen_top;
+    animation-name: $animation;
+    animation-duration:$animation_duration;
+}
