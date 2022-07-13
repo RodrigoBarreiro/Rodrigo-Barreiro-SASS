@@ -1,0 +1,20 @@
+.body_registro{
+    background: none;
+    background: rgb(170,155,87);
+    background: linear-gradient(90deg, rgba(170,155,87,1) 42%, rgba(33,207,226,1) 100%);
+    .green_book1 {
+        width: 300px;
+    }
+    
+    .boton_registro{
+        background-color: map-get($btn , background);    
+        border-radius: map-get($btn , border);
+        color: map-get($btn, color);
+        font-weight: map-get($btn , font );
+        padding: map-get($btn, padding);
+        text-decoration: map-get($btn , text_decoration  );
+        text-shadow: map-get($btn , text_shadow );
+        font-size: 18px;
+        width: 100px;
+    }
+}

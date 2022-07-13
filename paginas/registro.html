@@ -7,57 +7,51 @@
     <meta name="keywords" content="Libreria, librerias,Libros,Novelas,Biografias,Historias,Historietas,Poemas,Literatura,Cultura,Biblioteca,Literatura Juvenil, Literatura Infantil, Letras">
     <meta name="description" content="Regístrese en nuestra librería.">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Registro de la Librería</title>
 </head>
-<body>
-    <header>   
-        <nav class="navbar">
-            <input class="checkbox" type="checkbox">
-            <div class="menu_resp">
-                <img  src="../image/menu_resp.svg" alt="Menu" width="40px">
-            </div>
-            <div class="titulo_principal">
-                <h1><a href="../index.html"><img src="../image/logo.svg"alt="Libreria Green Book"></a></h1> 
-            </div>
-            <ul class="navbar_izquierda">
-                <li><a href="../index.html"><b>INICIO</b></a></li>
-                <li><a href="../paginas/acerca_de.html"><b>ACERCA DE</b></a></li>
-                <li><a><b>GENEROS</b></a>
-                    <ul>
-                        <li><a href="../paginas/infantiles.html">Infantiles</a></li>
-                        <li><a href="../paginas/novelas.html">Novelas</a></li>
-                        <li><a href="../paginas/adultos.html">Adultos</a></li>
-                        <li><a href="../paginas/biografias.html">Biografias</a></li>
-                    </ul>
-                </li>
-            </ul> 
-            <ul class="navbar_derecha">
-                <li><a href="../paginas/tienda.html"><b>TIENDA</b></a></li>
-                <li class="menu_buton_item"><a class="menu_buton" href="../paginas/iniciar_sesion.html"><b>INICIAR SESION</b></a></li>
-                <li class="menu_buton_item"><a class="menu_bt" href="../paginas/registro.html"><b>REGISTRO</b></a></li> 
-            </ul>
-        </nav>
-    </header> 
-    <hr>
-    <main>
-        <h2><u>INSCRIBETE</u></h2>
-        <form action="./registro_exitoso.html">
-            <fieldset>
-                <legend>Informacion Personal</legend>
-                <label for="email">Email</label>
-                <input type="email" name="email" required> <br>
-                <Label for="name">Nombre de Usuario</Label>
-                <input type="text" name="name" required> <br>
-                <label for="password">Contraseña</label>
-                <input type="text" name="password" required> <br>
-                <label>Repite Contraseña</label>
-                <input type="text" name="repeat_password" required> <br>
-                <input type="submit">
-            </fieldset>
-        </form>
-    </main>
-    <footer>
+<body class="body_registro my-auto">
+        <main class="container my-auto">
+                <div class= "d-flex justify-content-center mb-5" data-aos="fade-down" data-aos-easing="linear"data-aos-duration="500" >
+                    <a href="../index.html"><img class="green_book1" src="../image/logo.svg" alt="Logo Libreria"></a>
+                </div>
+            <form class=" row g-3" data-aos="fade-left">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre.</label>
+                    <input type="text" class="form-control border-info" id="primer_nombre" placeholder="Ingrese su Nombre" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido.</label>
+                    <input type="text" class="form-control border-info" id="primer_nombre" placeholder="Ingrese su Apellido" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email_info" class="form-label">Email.</label>
+                    <input type="email" class="form-control border-info" id="email_info" placeholder="Ingrese su Email" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="numero_contacto" class="form-label">Numero de Contacto.</label>
+                    <input type="text" class="form-control border-info" id="numero_contacto" placeholder="Ingrese su numero de contacto" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="password_info" class="form-label">Contraseña.</label>
+                    <input type="password" class="form-control border-info" id="password_info" placeholder="Ingrese su Contraseña" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="password_info" class="form-label">Repita su contraseña.</label>
+                    <input type="password" class="form-control border-info" id="password_info" placeholder="Repita su Contraseña" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="comments" class="form-label">Cuentanos de ti y que libros te gustan.</label>
+                    <textarea class="form-control border-info" id="comments" rows="3"></textarea>
+                </div>
+                <div class="d-flex justify-content-center my-5">
+                    <button type="submit" class="btn rounded-4 me-3 boton_registro">Enviar</button>
+                    <a class="btn rounded-4 boton_registro" href="../index.html" role="button">Cancelar</a>
+                </div>
+            </form>
+        </main>
+    <footer class="container-fluid ">
         <div class="address_container">
             <address class="informacion_contacto">
                 <u><b>Casa central</b></u><br>
@@ -76,5 +70,6 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

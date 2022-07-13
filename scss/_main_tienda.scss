@@ -1,0 +1,48 @@
+@media (min-width: $desktop){
+    .tienda_main{
+    display: flex;
+    flex-direction: column;
+    .titulos_tienda {
+        display: flex;
+        margin-top: 200px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+        }
+    .tienda_imagenes{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        }
+    }
+}
+
+@media (max-width: $mobile ){
+    .tienda_main{
+        display: flex;
+        flex-direction: column;
+    .titulos_tienda {
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+        .logo_tienda{
+            padding-top: 20px;
+            img{
+                width: 300px;
+            }
+        }
+    }
+    .tienda_imagenes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        }
+    }
+}
