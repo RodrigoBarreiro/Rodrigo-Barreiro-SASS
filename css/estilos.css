@@ -822,14 +822,12 @@ footer {
   background: none;
   background: #aa9b57;
   background: linear-gradient(90deg, #aa9b57 42%, #21cfe2 100%); }
-
-.bg {
-  background-image: url(../image/login1.jpg);
-  background-position: center center; }
-
-.boton_iniciar {
-  background-color: #4BA7DB;
-  border: none; }
+  .login_fondo .bg {
+    background-image: url(../image/login1.jpg);
+    background-position: center center; }
+  .login_fondo .boton_iniciar {
+    background-color: #4BA7DB;
+    border: none; }
 
 @media (min-width: 1224px) {
   .tienda_main {
