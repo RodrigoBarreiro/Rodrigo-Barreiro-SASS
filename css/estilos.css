@@ -531,7 +531,8 @@ footer {
       text-align: center; }
       .contendor_bruce .imagen_bruce img {
         width: 100%;
-        max-width: 500px; }
+        max-width: 500px;
+        margin-bottom: 30px; }
     .contendor_bruce .contenedor_bruce_info {
       width: 100%; }
   .interaccion_bruce {
@@ -543,8 +544,7 @@ footer {
   margin: 135px auto 0 auto; }
   .main_bruce .imagen_bruce {
     grid-area: main;
-    justify-self: end;
-    margin-bottom: 30px; }
+    justify-self: end; }
   .main_bruce .contenedor_bruce_info {
     grid-area: section;
     background-color: #D40A20;
