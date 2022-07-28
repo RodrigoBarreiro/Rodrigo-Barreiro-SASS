@@ -23,7 +23,7 @@ body {
   vertical-align: middle; }
   .titulo_principal img {
     top: 15px;
-    width: 320px; }
+    width: 250px; }
 
 nav {
   position: fixed;
@@ -171,14 +171,15 @@ footer {
   .libros_container .lista_libros {
     display: flex;
     flex-wrap: wrap;
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 135px; }
     .libros_container .lista_libros li {
       flex-basis: 30%;
       flex-grow: 1;
       text-align: center; }
   .libros_container h3 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     animation-name: opacidad_de_texto;
     animation-duration: 2s; }
@@ -197,9 +198,14 @@ footer {
     display: block;
     margin-top: 132px; }
     .contenedor_acercaDe .contenedor_imagen_acercaDe img {
-      width: 100%; }
-    .contenedor_acercaDe .acercaDe_contenido h2 {
-      line-height: 50px; }
+      width: 100%;
+      margin-bottom: 40px; }
+    .contenedor_acercaDe .acercaDe_contenido {
+      padding: 10px; }
+      .contenedor_acercaDe .acercaDe_contenido h2 {
+        line-height: 50px; }
+      .contenedor_acercaDe .acercaDe_contenido .green_book {
+        width: 300px; }
   .fondo {
     display: block !important; } }
 
@@ -392,7 +398,8 @@ footer {
     display: block;
     margin-top: 132px; }
     .contendor_info .imagen_will2 {
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 20px; }
       .contendor_info .imagen_will2 img {
         width: 100%;
         max-width: 400px; }
@@ -439,7 +446,8 @@ footer {
     display: block;
     margin-top: 132px; }
     .contendor_michelle .imagen_michelle {
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 20px; }
       .contendor_michelle .imagen_michelle img {
         width: 100%;
         max-width: 500px; }
@@ -483,10 +491,11 @@ footer {
     display: block;
     margin-top: 132px; }
     .contenedor_frida .imagen_frida {
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 40px; }
       .contenedor_frida .imagen_frida img {
         width: 100%;
-        max-width: 550px; }
+        max-width: 560px; }
     .contenedor_frida .contenedor_info_frida {
       width: 100%; }
   .interaccion_frida {
@@ -531,8 +540,8 @@ footer {
       text-align: center; }
       .contendor_bruce .imagen_bruce img {
         width: 100%;
-        max-width: 500px;
-        margin-bottom: 30px; }
+        max-width: 550px;
+        margin-bottom: 40px; }
     .contendor_bruce .contenedor_bruce_info {
       width: 100%; }
   .interaccion_bruce {
@@ -579,7 +588,8 @@ footer {
       text-align: center; }
       .contendor_madona .imagen_madona img {
         width: 100%;
-        max-width: 500px; }
+        max-width: 550px;
+        margin-bottom: 40px; }
     .contendor_madona .contenedor_madona_info {
       width: 100%; }
   .interaccion_madona {
@@ -627,7 +637,8 @@ footer {
       text-align: center; }
       .contendor_hechizo .imagen_hechizo img {
         width: 100%;
-        max-width: 500px; }
+        max-width: 500px;
+        padding-bottom: 20px; }
     .contendor_hechizo .contenedor_hechizo_info {
       width: 100%; }
   .interaccion_hechizo {
@@ -638,7 +649,8 @@ footer {
   max-width: 1300px;
   margin: 0 auto; }
   .main_hechizo .imagen_hechizo {
-    flex-grow: 3; }
+    flex-grow: 3;
+    margin-bottom: 40px; }
   .main_hechizo .contenedor_hechizo_info {
     flex-grow: 1;
     color: white;
@@ -675,7 +687,8 @@ footer {
       text-align: center; }
       .contenedor_bridgerton .imagen_bridgerton img {
         width: 100%;
-        max-width: 525px; }
+        max-width: 525px;
+        margin-bottom: 40px; }
   .interaccion_bridgerton {
     justify-content: center;
     margin: 0 auto !important; } }
@@ -723,7 +736,8 @@ footer {
         max-width: 560px;
         margin-bottom: 40px; }
     .contenedor_divergente .contenedor_divergente_info {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 40px; }
       .contenedor_divergente .contenedor_divergente_info h2 {
         text-align: center; }
   .interaccion_divergente {
@@ -760,7 +774,7 @@ footer {
     margin: 135px auto 0 auto; }
     .contenedor_niebla .contenedor_niebla_info {
       width: 80%;
-      height: 610px; } }
+      height: 615px; } }
 
 @media (max-width: 1223px) {
   .contenedor_niebla {
@@ -770,7 +784,8 @@ footer {
       text-align: center; }
       .contenedor_niebla .imagen_niebla img {
         width: 100%;
-        max-width: 500px; }
+        max-width: 500px;
+        margin-bottom: 40px; }
     .contenedor_niebla .contenedor_niebla_info {
       width: 100%; }
       .contenedor_niebla .contenedor_niebla_info h2 {

@@ -14,10 +14,17 @@
         display: block;
         margin-top: 132px;
         .contenedor_imagen_acercaDe img {
-            width:100% ;
+            width:100%;
+            margin-bottom: 40px;
         }
-        .acercaDe_contenido h2{
-            line-height: 50px;
+        .acercaDe_contenido{
+            padding: 10px;
+            h2{
+                line-height: 50px;
+            }
+            .green_book{
+                width:300px;
+            }
         }
     }
     .fondo{
