@@ -18,11 +18,11 @@ nav{
         animation-duration:2s;
         text-shadow: $colorSombra1, $colorSombra2;
         &:hover {
-            color: #808080;
             ul {
                 display: block;
             }
         }
+            
         a{
             color: $colorNegro;
             text-decoration: none;
@@ -30,10 +30,10 @@ nav{
             font-family: $fuente;
         }
         ul{
+            display: none;
             color: $colorNegro;
             position:absolute;
             background-color: $colorHover;
-            display: none;
             padding: 10px;
             border-radius: $bordeHover;
         }

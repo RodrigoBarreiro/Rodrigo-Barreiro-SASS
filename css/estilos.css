@@ -43,20 +43,18 @@ nav {
     animation-name: opacidad_de_texto;
     animation-duration: 2s;
     text-shadow: 3px 6px 8px #868585, -1px 2px 5px #8d8888; }
-    nav ul li:hover {
-      color: #808080; }
-      nav ul li:hover ul {
-        display: block; }
+    nav ul li:hover ul {
+      display: block; }
     nav ul li a {
       color: #000000;
       text-decoration: none;
       font-size: 18px;
       font-family: Arial, Helvetica, sans-serif; }
     nav ul li ul {
+      display: none;
       color: #000000;
       position: absolute;
       background-color: #cec8c8;
-      display: none;
       padding: 10px;
       border-radius: 20px; }
   nav .navbar_izquierda {
@@ -100,6 +98,8 @@ nav {
     .navbar li {
       padding: 10px 0px;
       display: block; }
+      .navbar li ul {
+        display: block; }
     .navbar .titulo_principal img {
       width: 250px; }
     .navbar .navbar_derecha {
@@ -124,7 +124,6 @@ nav {
       color: #000000;
       position: static;
       background-color: white;
-      display: none;
       padding: 10px; }
   .libros_container {
     display: block !important;

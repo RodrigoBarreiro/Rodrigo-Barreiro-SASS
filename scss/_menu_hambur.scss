@@ -20,6 +20,9 @@
         li{
             padding: 10px 0px;
             display: block;
+            ul {
+                display: block;
+            }
         }
         .titulo_principal img{
             width:250px;
@@ -52,7 +55,6 @@
             color: $colorNegro;
             position:static;
             background-color: $colorBlanco;
-            display: none;
             padding: 10px;
         }
     }
